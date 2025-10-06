@@ -1,4 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Inicio from "./pages/inicio";
+import Biblioteca from "./pages/biblioteca";
+import Sobre from "./pages/sobre";
 
 
 export default function Navegacao (){
@@ -9,8 +12,9 @@ export default function Navegacao (){
         <BrowserRouter>
         <Routes>
 
-        <Route path="/"></Route>
-        <Route path="/bliblioteca"></Route>
+        <Route path="/" element={<Inicio/>}></Route>
+        <Route path="/biblioteca" element={<Biblioteca/>}></Route>
+        <Route path="/sobre" element={<Sobre/>}></Route>
 
         </Routes>
         </BrowserRouter>
