@@ -1,0 +1,28 @@
+.sessao-inicio{
+
+
+
+
+    .top-site{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        .objects{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+    }
+}

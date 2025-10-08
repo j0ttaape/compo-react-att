@@ -1,18 +1,17 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router";
 import Inicio from "./pages/inicio";
+import Sobre from "./pages/sobre";
 
 
-export default function Navigator() {
+export default function Navegacao() {
 
-
-    <BrowserRouter>
-
-        <Routes>
-
-            <Route path="/" element = {<Inicio/>} />
-
-
-        </Routes>
-
-    </BrowserRouter>
+    return(
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element = {<Inicio/>} />
+                <Route path="/sobre" element = {<Sobre/>}/>
+            </Routes>
+        </BrowserRouter>
+        
+    )
 }
