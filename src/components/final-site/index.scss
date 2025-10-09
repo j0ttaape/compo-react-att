@@ -1,12 +1,13 @@
 .sessao-final-site {
   background-color: #f8f8f8; 
-  padding: 2rem;
+  padding: 5rem;
 
   .sessaofinal {
     display: flex;              
     justify-content: space-around; 
     align-items: center;
-    flex-wrap: wrap;            
+    flex-wrap: wrap;  
+        
 
     .contato, .desenvolvido, .turma {
       text-align: center;      
