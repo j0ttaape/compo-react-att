@@ -1,0 +1,18 @@
+.sessao-final-site {
+  background-color: #f8f8f8; 
+  padding: 2rem;
+
+  .sessaofinal {
+    display: flex;              
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;            
+
+    .contato, .desenvolvido, .turma {
+      text-align: center;      
+      margin: 1rem;             
+      flex: 1;                 
+      min-width: 150px;        
+    }
+  }
+}
